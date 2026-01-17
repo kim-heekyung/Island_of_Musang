@@ -1,0 +1,60 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    margin: 20px;
+    margin-left: 50px;
+    background-color: Ivory;
+}
+
+h1 {
+	/*font-family: serif;*/
+	font-size: 30pt;
+	color: darkgreen;
+	/*font-style: italic;*/
+}
+
+h2 {
+	/*font-family: serif;*/
+}
+
+
+p {
+	/*font-family: serif;*/
+	width: 700px;
+
+}
+
+ul {
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+.browntext {
+	color: darkbrown;
+}
+
+.tempstyle {
+	/*color : red;*/
+}
+
+mark {
+	background-color: palegreen;
+}
+
+a {
+
+}
+
+
+@media screen and (max-width: 704px) {
+
+}

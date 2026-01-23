@@ -4,10 +4,18 @@
  box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff); 
+}
+
+
 body {
     font-family: serif;
     margin: 20px;
     margin-left: 50px;
+    margin-right: 50px;
     background-color: Ivory;
 }
 
@@ -22,36 +30,59 @@ h2 {
 	/*font-family: serif;*/
 }
 
-
-p {
-	/*font-family: serif;*/
-	width: 700px;
-
+hr.dotted {
+  border: none;
+  border-top: 3px dotted;
+  /*color: black;*/
 }
 
-ul {
+.divider-dot {
+  text-align: center;
+  /*color: #aaa;*/
+  margin: 0.5rem;
+}
+
+p.right {
+	text-align: right;
+}
+
+.favorite-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.favorite-list .list-title {
 	font-weight: bold;
-	background-color: lightgrey;
+	list-style: none;
+	padding-left: 0;
+	padding: 2px;
+	
 }
 
-li {
-	margin-bottom: 5px;
+.favorite-list .list-title {
+  /*background-color: #F0E68C;*/
+  background: linear-gradient(
+  	to right,
+    rgba(240, 230, 140, 1),
+    rgba(240, 230, 140, 0)
+  );
 }
 
-.browntext {
-	color: darkbrown;
-}
 
-.tempstyle {
-	/*color : red;*/
-}
+.indent-1 { padding-left: 8px; padding-bottom: 10px; padding-top: 10px;}
+.indent-2 { padding-left: 16px; padding-bottom: 10px; padding-top: 10px; }
+.indent-3 { padding-left: 24px; padding-bottom: 10px; padding-top: 10px;}
+.indent-4 { padding-left: 32px; padding-bottom: 10px; padding-top: 10px;}
+
 
 mark {
-	background-color: palegreen;
+	background-color: #afcfaf;
 }
 
-a {
-
+img {
+	width: 150px;
+	display: block;
+	margin-left: auto;
 }
 
 

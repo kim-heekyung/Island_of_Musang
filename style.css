@@ -12,12 +12,13 @@
 
 
 body {
-    font-family: serif;
+    font-family: "Noto Serif KR",  serif;
     margin: 20px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: Ivory;
 }
+
 
 h1 {
 	/*font-family: serif;*/
@@ -26,9 +27,6 @@ h1 {
 	/*font-style: italic;*/
 }
 
-h2 {
-	/*font-family: serif;*/
-}
 
 hr.dotted {
   border: none;
@@ -38,8 +36,10 @@ hr.dotted {
 
 .divider-dot {
   text-align: center;
-  /*color: #aaa;*/
+  color: black;
   margin: 0.5rem;
+  font-size: 20px;
+
 }
 
 p.right {
